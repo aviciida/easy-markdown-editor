@@ -332,8 +332,8 @@
 .cm-s-easymde .cm-header-4,
 .cm-s-easymde .cm-header-5,
 .cm-s-easymde .cm-header-6 {
-    margin-bottom: .5rem;
-    line-height: 1.2;
+    margin-bottom: 1rem;
+    line-height: 2;
 }
 
 .cm-s-easymde .cm-comment {
