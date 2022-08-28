@@ -1,5 +1,42 @@
+:root {
+    --background: white;
+    --text-primary: black;
+    --text-secondary: royalblue;
+    --accent: purple;
+  }
+  
+  [data-theme='dark'] {
+    --background: #201B26;
+    --text-primary: white;
+    --text-secondary: grey;
+    --accent: darkred;
+  }
+
 .EasyMDEContainer {
     display: block;
+    background-color: var(--background) !important;
+}
+
+.CodeMirror, .editor-preview {
+    color: var(--text-primary) !important;
+    border-color: gray !important;
+    background-color: var(--background) !important;
+}
+
+.cm-s-easymde .CodeMirror-cursor {
+    border-color: gray !important;
+}
+
+.editor-toolbar button i {
+    color: var(--text-primary) !important;
+}
+
+.editor-toolbar button.active, .editor-toolbar button:hover {
+    background-color: var(--accent) !important; 
+}
+
+.editor-preview pre {
+    background-color: #333 !important; 
 }
 
 .CodeMirror-rtl pre {
